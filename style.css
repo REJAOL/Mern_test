@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&display=swap');
+
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p {
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+
+}
+
+
+
+.top-section {
+    display: flex;
+
+}
+
+.description {
+    width: 50%;
+    padding: 3%;
+}
+
+
+
+span {
+    color: orange;
+}
+
+.link-prof {
+
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+
+.link-prof:hover {
+    color: white;
+}
+
+.description-img {
+    width: 50%;
+}
+
+.puss-img {
+    width: 100%;
+
+}
+
+.ex-sec {
+    display: flex;
+}
+
+.ex-title {
+    font-weight: bold;
+    color: red;
+}
+
+.ex-type {
+    font-weight: bold;
+    color: tomato;
+}
+
+.ex-des {
+    color: blue;
+}
+
+.ex-des:hover {
+    color: tomato;
+}
+
+.ex-sec-def {
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0px 10px 0px 20px;
+    box-shadow: 20px 20px 20px red;
+    border-radius: 50px;
+    margin-bottom: 100px;
+
+}
+
+.ex-sec-def:hover {
+    width: 40%;
+}
+
+#Mern {
+    border-left: 10px solid green;
+}
+
+#React {
+    border-left: 10px solid blueviolet;
+}
+
+#Net {
+    border-left: 10px solid indigo;
+}
+
+
+
+footer p {
+    text-align: center;
+    display: inline block;
+}
+
+footer p:hover {
+    color: white;
+}
+
+#exp {
+    margin-left: 40px;
+}
